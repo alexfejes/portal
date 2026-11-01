@@ -1,0 +1,57 @@
+.dashboard {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 48px 20px;
+}
+
+.dashboard__header h1 {
+  margin: 0 0 8px;
+  font-size: 28px;
+}
+
+.hint {
+  margin: 0 0 28px;
+  color: var(--text-muted);
+}
+
+.hint kbd,
+.hint code {
+  padding: 1px 6px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.stat {
+  margin: 4px 0 6px;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.delta {
+  margin: 0;
+  font-size: 13px;
+}
+
+.delta--up {
+  color: var(--success);
+}
+
+.delta--down {
+  color: var(--danger);
+}
+
+.last-action {
+  margin-top: 28px;
+  color: var(--text-muted);
+  font-size: 14px;
+}
